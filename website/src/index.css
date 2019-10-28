@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
-.BigCalendar {
-  height: 100vh;
+#banner-image {
+    width: 820px;
+    left: 55px;
 }
+
+/* .BigCalendar {
+  height: 100vh;
+} */

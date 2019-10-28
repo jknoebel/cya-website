@@ -13,4 +13,13 @@
 # [START app_yaml]
 env: flex
 runtime: nodejs
+manual_scaling:
+    instances: 1
+
+handlers:
+- url: /
+  static_files: website/build/index.html
+  upload: website/build/index.html
+- url: /
+  static_dir: build
 # [END app_yaml]
