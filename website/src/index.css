@@ -12,9 +12,12 @@ code {
     monospace;
 }
 
+#banner-image-box {
+  width: 820px;
+}
+
 #banner-image {
-    width: 820px;
-    left: 55px;
+  object-position: center;
 }
 
 /* .BigCalendar {
