@@ -1,16 +1,20 @@
-# base image
-FROM node:12.2.0-alpine
+# Use the official lightweight Node.js 12 image.
+# https://hub.docker.com/_/node
+FROM node:12-slim
 
-# set working directory
-WORKDIR /website
+# Create and change to the app directory.
+WORKDIR /src
 
-# add `/website/node_modules/.bin` to $PATH
-ENV PATH /website/node_modules/.bin:$PATH
+# Copy application dependency manifests to the container image.
+# A wildcard is used to ensure both package.json AND package-lock.json are copied.
+# Copying this separately prevents re-running npm install on every code change.
+COPY package*.json ./
 
-# install and cache app dependencies
-COPY package.json /website/package.json
-RUN npm install --silent
-RUN npm install react-scripts@3.0.1 -g --silent
+# Install production dependencies.
+RUN npm install --only=production
 
-# start app
-CMD ["npm", "start"]
+# Copy local code to the container image.
+COPY . ./
+
+# Run the web service on container startup.
+CMD [ "npm", "start" ]
