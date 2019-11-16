@@ -19,6 +19,7 @@ on:
 env:
   GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
   GKE_EMAIL: ${{ secrets.GKE_EMAIL }}
+  GKE_KEY: ${{ secrets.GKE_KEY }}
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-central1
   GKE_CLUSTER: example-gke-cluster
@@ -37,8 +38,8 @@ jobs:
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
         version: '270.0.0'
-        service_account_email: ${{ secrets.GKE_EMAIL }}
-        service_account_key: ${{ secrets.GKE_KEY }}
+        service_account_email: $GKE_EMAIL
+        service_account_key: $GKE_KEY
       
     # Build and push the Docker image
     - name: Build
