@@ -38,7 +38,7 @@ jobs:
 
     - uses: actions/gcloud/cli@master
       with:    
-        args: gcloud config set project $GKE_PROJECT
+        args: config set project $GKE_PROJECT
       
     # Build and push the Docker image
     - name: Build
