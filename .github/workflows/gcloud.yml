@@ -45,7 +45,7 @@ jobs:
     - name: Authenticate into Google Cloud Platform
       uses: actions/gcloud/auth@master
       env:
-        GCLOUD_AUTH: ${{ secrets.GKE_KEY }}
+        GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
       
     # Build and push the Docker image
     - name: Build
