@@ -8,7 +8,7 @@
 #
 # 3. Change the values for the GKE_ZONE, GKE_CLUSTER and IMAGE environment variables (below).
 
-name: Build and Deploy to GKE
+name: Deploy to Google Cloud Run
 
 on:
   push:
@@ -18,35 +18,43 @@ on:
 # Environment variables available to all jobs and steps in this workflow
 env:
   GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
-  GKE_EMAIL: ${{ secrets.GKE_EMAIL }}
-  GKE_KEY: ${{ secrets.GKE_KEY }}
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-central1
   GKE_CLUSTER: example-gke-cluster
   IMAGE: website
 
 jobs:
-  setup-build-publish-deploy:
-    name: Setup, Build, Publish, and Deploy
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
 
     - name: Checkout
       uses: actions/checkout@master
 
-    # Setup gcloud CLI
-    - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+    - uses: actions/setup-node@v1
       with:
-        version: '270.0.0'
-        service_account_email: $GKE_EMAIL
-        service_account_key: $GKE_KEY
+        node-version: '10.x'
+        registry-url: 'https://registry.npmjs.org'
+
+    # Create production build
+    - run: yarn install
+    - run: yarn build
+
+    # Setup gcloud CLI
+    - name: Authenticate into Google Cloud Platform
+      uses: actions/gcloud/auth@master
+      env:
+        GCLOUD_AUTH: ${{ secrets.GKE_KEY }}
       
     # Build and push the Docker image
     - name: Build
-      run: |        
-        gcloud builds submit --tag gcr.io/"$GKE_PROJECT"/"$IMAGE":"$GITHUB_SHA"
+      uses: actions/gcloud/cli@master
+      with: |        
+        args: builds submit --tag gcr.io/"$GKE_PROJECT"/"$IMAGE":"$GITHUB_SHA"
 
     # Deploy the Docker image
     - name: Publish
-      run: |
-        gcloud beta run deploy --image gcr.io/$GKE_PROJECT/$IMAGE:$GITHUB_SHA
+      uses: actions/gcloud/cli@master
+      with: |        
+        args: beta run deploy --image gcr.io/$GKE_PROJECT/$IMAGE:$GITHUB_SHA
