@@ -50,11 +50,11 @@ jobs:
     # Build and push the Docker image
     - name: Build
       uses: actions/gcloud/cli@master
-      with: |        
+      with:    
         args: builds submit --tag gcr.io/"$GKE_PROJECT"/"$IMAGE":"$GITHUB_SHA"
 
     # Deploy the Docker image
     - name: Publish
       uses: actions/gcloud/cli@master
-      with: |        
+      with:
         args: beta run deploy --image gcr.io/$GKE_PROJECT/$IMAGE:$GITHUB_SHA
