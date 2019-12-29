@@ -1,11 +1,12 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import App from './App';
 // import Calendar from './Calendar'; 
 // import 'react-big-calendar-like-google/lib/css/react-big-calendar.css'
 
-
+ReactDOM.render(<App />, document.getElementById('root'))
 // ReactDOM.render(<Calendar />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
