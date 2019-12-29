@@ -11,7 +11,8 @@
     "react": "^16.9.0",
     "react-big-calendar-like-google": "0.0.3",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
