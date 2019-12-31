@@ -1,3 +1,32 @@
+import ICAL from 'ical.js';
+import iCalData from './ical_data'
+
+// Get the basic data out
+var jCalData = ICAL.parse(iCalData);
+console.log(jCalData)
+var comp = new ICAL.Component(jCalData);
+console.log(comp)
+
+// Fetch the VEVENT part
+// will want to use getAllSubcomponents for all events
+var vevent = comp.getFirstSubcomponent('vevent');
+console.log(vevent)
+var event = new ICAL.Event(vevent);
+
+console.log(event.summary, event.uid, event.description);
+
+// Get start and end dates as local time on current machine
+console.log(event.startDate.toJSDate(), event.endDate.toJSDate());
+
+// Get recurrence
+console.log(event.isRecurring())
+
+// Iterate over recurrence
+var iter = event.iterator()
+for (var i = 0; i < 4; i++) {
+    console.log(iter.next())
+}
+
 export default [
     {
         'title': 'All Day Event very long title',
