@@ -1,7 +1,9 @@
 import React from 'react';
 import BigCalendar from 'react-big-calendar-like-google';
-import events from './events';
+import { getEvents } from './events';
 import moment from 'moment';
+
+import 'react-big-calendar-like-google/lib/css/react-big-calendar.css'
 
 BigCalendar.setLocalizer(
     BigCalendar.momentLocalizer(moment)
@@ -18,14 +20,25 @@ let formats = {
 }
 
 export default class Calendar  extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            events: []
+        }
+    }
+    componentDidMount() {
+        getEvents((events) => {
+            this.setState({ events })
+        })
+    }
     render() {
         return (
             <div className="BigCalendar" {...this.props}>
                 <BigCalendar
                     popup
                     formats={formats}
-                    events={events}
-                    defaultDate={new Date(2015, 3, 1)}
+                    events={this.state.events}
+                    // style={{ height: '700px' }}
                 />
             </div>
         )
