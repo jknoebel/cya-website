@@ -13,11 +13,9 @@ function App() {
                     <p className="major">Our mission is to call young adults to discipleship with Jesus Christ, to sanctify them
                     through formation in our community groups, and to send them out as disciples of Christ as we walk alongside them in
 							Spiritual Accompaniment.</p>
-                    <ul className="actions stacked">
-                        <li>
-                            <a href="#first" className="button large wide smooth-scroll-middle">Learn More</a>
-                            <a href="#contact" className="button primary large wide smooth-scroll-middle">Join Now</a>
-                        </li>
+                    <ul className="actions">
+                        <li><a href="#first" className="button large wide smooth-scroll-middle">Learn More</a></li>
+                        <li><a href="#contact" className="button primary large wide smooth-scroll-middle">Join Now</a></li>
                     </ul>
                 </div>
                 <div className="image" id="banner-image-box">

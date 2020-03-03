@@ -36,9 +36,9 @@ export default class Calendar  extends React.Component {
             <div className="BigCalendar" {...this.props}>
                 <BigCalendar
                     popup
+                    defaultView='agenda'
                     formats={formats}
                     events={this.state.events}
-                    // style={{ height: '700px' }}
                 />
             </div>
         )
