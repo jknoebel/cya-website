@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+#banner-image {
+  object-position: center;
+}
+
 .rbc-agenda-view table {
   margin: 0;
 }
