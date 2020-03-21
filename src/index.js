@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
-import './index.css';
+import './css/index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 import Calendar from './Calendar'; 
-import 'react-big-calendar-like-google/lib/css/react-big-calendar.css'
 
 const routing = (
     <Router>

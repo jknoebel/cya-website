@@ -1,7 +1,8 @@
 FROM nginx:alpine
-# Don't use conf.d default nginx configurations.
-RUN rm -rf /etc/nginx/conf.d
-COPY conf /etc/nginx
+COPY nginx.conf /etc/nginx/conf.d/configfile.template
+ENV PORT 8080
+ENV HOST 0.0.0.0
+RUN sh -c "envsubst '\$PORT'  < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf"
 COPY /build /usr/share/nginx/html
-# Substitute the environment variables and generate the final config
-CMD envsubst '${PORT}' < /etc/nginx/conf.d/default.conf > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'
+EXPOSE 8080
+CMD ["nginx", "-g", "daemon off;"]

@@ -20,6 +20,14 @@ code {
   object-position: center;
 }
 
+.rbc-agenda-view table {
+  margin: 0;
+}
+
+.rbc-toolbar button {
+  box-shadow: none;
+}
+
 /* .BigCalendar {
   height: 100vh;
 } */

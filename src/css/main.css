@@ -2598,11 +2598,11 @@ input, select, textarea {
 			line-height: 2.75em;
 			width: 2.75em;
 		}
-
+/* 
 		.icon.major {
 			display: block;
 			margin: 0 0 1rem 0;
-		}
+		} */
 
 			.icon.major:before {
 				font-size: 1.25rem;
@@ -3516,7 +3516,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style1 .content {
-				padding: 5rem 3rem 3rem 5rem ;
+				padding: 3rem 3rem 3rem 3rem ;
 			}
 
 		}
@@ -8608,3 +8608,7 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+#event-button-action {
+	margin-bottom: 1rem;
+}

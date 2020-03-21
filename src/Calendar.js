@@ -5,6 +5,8 @@ import moment from 'moment';
 
 import 'react-big-calendar-like-google/lib/css/react-big-calendar.css'
 
+// import './calendar.css'
+
 BigCalendar.setLocalizer(
     BigCalendar.momentLocalizer(moment)
 );
@@ -14,9 +16,9 @@ let formats = {
     dayFormat: (date, culture, localizer) =>
         localizer.format(date, 'ddd MM/DD', culture),
 
-    // dayRangeHeaderFormat: ({ start, end }, culture, local) =>
-    //     local.format(start, { date: 'short' }, culture) + ' — ' +
-    //     local.format(end, { date: 'short' }, culture)
+    dayRangeHeaderFormat: ({ start, end }, culture, local) =>
+        local.format(start, { date: 'short' }, culture) + ' — ' +
+        local.format(end, { date: 'short' }, culture)
 }
 
 export default class Calendar  extends React.Component {
@@ -33,8 +35,9 @@ export default class Calendar  extends React.Component {
     }
     render() {
         return (
-            <div className="BigCalendar" {...this.props}>
+            <div className="BigCalendar">
                 <BigCalendar
+                    {...this.props}
                     popup
                     defaultView='agenda'
                     formats={formats}
