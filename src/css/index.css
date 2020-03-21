@@ -12,12 +12,12 @@ code {
     monospace;
 }
 
-#banner-image-box {
-  width: 820px;
+.rbc-agenda-view table {
+  margin: 0;
 }
 
-#banner-image {
-  object-position: center;
+.rbc-toolbar button {
+  box-shadow: none;
 }
 
 /* .BigCalendar {

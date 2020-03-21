@@ -1,0 +1,211 @@
+{
+    "kind": "calendar#events",
+    "etag": "\"p32o8np6jirsee0g\"",
+    "summary": "CYA Events",
+    "description": "Public calendar for Cathedral Young Adults events. Email us at cya@smcaustin.org if you would like to add your event to this calendar.",
+    "updated": "2020-03-01T01:59:07.374Z",
+    "timeZone": "America/Chicago",
+    "accessRole": "reader",
+    "defaultReminders": [],
+    "nextSyncToken": "CLCL5NOW-OcCEAAYAQ==",
+    "items": [
+        {
+            "kind": "calendar#event",
+            "etag": "\"3166032017072000\"",
+            "id": "1n71i0k89hm1vf07q3lpohap6b",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=MW43MWkwazg5aG0xdmYwN3EzbHBvaGFwNmJfMjAyMDAzMDJUMDEwMDAwWiBjNTVoYzdzOTRwaTY3azlqMTZjbjg1dGJhc0Bn",
+            "created": "2020-02-29T22:39:00.000Z",
+            "updated": "2020-02-29T22:40:08.536Z",
+            "summary": "Lent Study",
+            "description": "Join us in the Bishop's Hall as we study the 5 sorrowful mysteries of the Rosary. Refreshments will be provided.",
+            "location": "St Mary Cathedral, 203 E 10th St, Austin, TX 78701, USA",
+            "creator": {
+                "email": "jeknoebel@utexas.edu"
+            },
+            "organizer": {
+                "email": "c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com",
+                "displayName": "CYA Events",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2020-03-01T19:00:00-06:00",
+                "timeZone": "America/Chicago"
+            },
+            "end": {
+                "dateTime": "2020-03-01T20:00:00-06:00",
+                "timeZone": "America/Chicago"
+            },
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=SU;COUNT=6;BYDAY=SU"
+            ],
+            "iCalUID": "1n71i0k89hm1vf07q3lpohap6b@google.com",
+            "sequence": 1
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3166032285650000\"",
+            "id": "3bvuehdhmkuu8jg46f24r17jee",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=M2J2dWVoZGhta3V1OGpnNDZmMjRyMTdqZWVfMjAyMDAzMDZUMjMwMDAwWiBjNTVoYzdzOTRwaTY3azlqMTZjbjg1dGJhc0Bn",
+            "created": "2020-02-29T22:42:03.000Z",
+            "updated": "2020-02-29T22:42:22.825Z",
+            "summary": "Fish Fry",
+            "description": "The Knights of Columbus are holding fish frys in the Bishop's Hall. ",
+            "location": "St Mary Cathedral, 203 E 10th St, Austin, TX 78701, USA",
+            "creator": {
+                "email": "jeknoebel@utexas.edu"
+            },
+            "organizer": {
+                "email": "c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com",
+                "displayName": "CYA Events",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2020-03-06T17:00:00-06:00",
+                "timeZone": "America/Chicago"
+            },
+            "end": {
+                "dateTime": "2020-03-06T19:00:00-06:00",
+                "timeZone": "America/Chicago"
+            },
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=SU;COUNT=6;BYDAY=FR"
+            ],
+            "iCalUID": "3bvuehdhmkuu8jg46f24r17jee@google.com",
+            "sequence": 1
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3166032631400000\"",
+            "id": "4cub28gvs388cphn70n2lqu91f",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NGN1YjI4Z3ZzMzg4Y3BobjcwbjJscXU5MWZfMjAyMDAzMDhUMTkwMDAwWiBjNTVoYzdzOTRwaTY3azlqMTZjbjg1dGJhc0Bn",
+            "created": "2020-02-29T22:45:15.000Z",
+            "updated": "2020-02-29T22:45:15.700Z",
+            "summary": "CYA Brunch",
+            "description": "Join us for brunch after the noon Mass! Come with us and meet the group on the steps outside the Cathedral, or join us just for brunch.",
+            "location": "TBD",
+            "creator": {
+                "email": "jeknoebel@utexas.edu"
+            },
+            "organizer": {
+                "email": "c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com",
+                "displayName": "CYA Events",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2020-03-08T14:00:00-05:00",
+                "timeZone": "America/Chicago"
+            },
+            "end": {
+                "dateTime": "2020-03-08T15:30:00-05:00",
+                "timeZone": "America/Chicago"
+            },
+            "recurrence": [
+                "RRULE:FREQ=MONTHLY;BYDAY=2SU"
+            ],
+            "iCalUID": "4cub28gvs388cphn70n2lqu91f@google.com",
+            "sequence": 0
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3166032849600000\"",
+            "id": "631sk00tmdj535p130imcun5r7",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NjMxc2swMHRtZGo1MzVwMTMwaW1jdW41cjdfMjAyMDAzMTNUMDAzMDAwWiBjNTVoYzdzOTRwaTY3azlqMTZjbjg1dGJhc0Bn",
+            "created": "2020-02-29T22:47:04.000Z",
+            "updated": "2020-02-29T22:47:04.800Z",
+            "summary": "CYA Adoration",
+            "description": "Confession will also be available. \n\nJoin us for a reception afterwards in the Bishop's Hall with refreshments provided.",
+            "location": "St Mary Cathedral, 203 E 10th St, Austin, TX 78701, USA",
+            "creator": {
+                "email": "jeknoebel@utexas.edu"
+            },
+            "organizer": {
+                "email": "c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com",
+                "displayName": "CYA Events",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2020-03-12T19:30:00-05:00",
+                "timeZone": "America/Chicago"
+            },
+            "end": {
+                "dateTime": "2020-03-12T20:30:00-05:00",
+                "timeZone": "America/Chicago"
+            },
+            "recurrence": [
+                "RRULE:FREQ=MONTHLY;BYDAY=2TH"
+            ],
+            "iCalUID": "631sk00tmdj535p130imcun5r7@google.com",
+            "sequence": 0
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3166032880362000\"",
+            "id": "46rg7g5tp35577oqimi6vvabr5",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NDZyZzdnNXRwMzU1NzdvcWltaTZ2dmFicjVfMjAyMDAzMjdUMDAzMDAwWiBjNTVoYzdzOTRwaTY3azlqMTZjbjg1dGJhc0Bn",
+            "created": "2020-02-29T22:47:20.000Z",
+            "updated": "2020-02-29T22:47:20.181Z",
+            "summary": "CYA Adoration",
+            "description": "Confession will also be available. \n\nJoin us for a reception afterwards in the Bishop's Hall with refreshments provided.",
+            "location": "St Mary Cathedral, 203 E 10th St, Austin, TX 78701, USA",
+            "creator": {
+                "email": "jeknoebel@utexas.edu"
+            },
+            "organizer": {
+                "email": "c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com",
+                "displayName": "CYA Events",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2020-03-26T19:30:00-05:00",
+                "timeZone": "America/Chicago"
+            },
+            "end": {
+                "dateTime": "2020-03-26T20:30:00-05:00",
+                "timeZone": "America/Chicago"
+            },
+            "recurrence": [
+                "RRULE:FREQ=MONTHLY;BYDAY=4TH"
+            ],
+            "iCalUID": "46rg7g5tp35577oqimi6vvabr5@google.com",
+            "sequence": 0
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3166055894748000\"",
+            "id": "558iqi7kq3p1bl9lit0t91rdhe",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NTU4aXFpN2txM3AxYmw5bGl0MHQ5MXJkaGVfMjAyMDAzMDdUMDEwMDAwWiBjNTVoYzdzOTRwaTY3azlqMTZjbjg1dGJhc0Bn",
+            "created": "2020-02-29T22:43:29.000Z",
+            "updated": "2020-03-01T01:59:07.374Z",
+            "summary": "Stations of the Cross",
+            "description": "Join us in the Cathedral for Stations of the Cross",
+            "location": "St Mary Cathedral, 203 E 10th St, Austin, TX 78701, USA",
+            "creator": {
+                "email": "jeknoebel@utexas.edu"
+            },
+            "organizer": {
+                "email": "c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com",
+                "displayName": "CYA Events",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2020-03-06T19:00:00-06:00",
+                "timeZone": "America/Chicago"
+            },
+            "end": {
+                "dateTime": "2020-03-06T20:00:00-06:00",
+                "timeZone": "America/Chicago"
+            },
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=SU;COUNT=6;BYDAY=FR"
+            ],
+            "iCalUID": "558iqi7kq3p1bl9lit0t91rdhe@google.com",
+            "sequence": 0
+        }
+    ]
+}
