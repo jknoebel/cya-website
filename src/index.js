@@ -5,12 +5,15 @@ import './css/index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 import Calendar from './Calendar'; 
+import Event from './Event'
+
 
 const routing = (
     <Router>
         <div>
             <Route exact path="/" component={App} />
-            <Route path="/events" component={Calendar} />
+            <Route exact path="/events" component={Calendar} />
+            <Route path="/events/:event_id" component={Event} />
         </div>
     </Router>
 )
