@@ -1,4 +1,14 @@
-.rbc-btn-group button{
-    border: none !important;
-    color: #ffffff !important;
+h3 {
+    margin: 1rem 0 0 1rem;
+    overflow: hidden;
+}
+
+.rbc-toolbar .rbc-toolbar-label {
+    padding: 0;    
+    margin-top: 15px;
+}
+
+.button.small {
+    float: right;
+    margin-right: 1rem;
 }

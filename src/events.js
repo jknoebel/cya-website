@@ -16,6 +16,8 @@ async function getRecurringEvents(event) {
             start: new Date(event.start.date || event.start.dateTime),
             end: new Date(event.end.date || event.end.dateTime),
             title: event.summary,
+            description: event.description,
+            // location: event.location
         })
     })
     return events
@@ -40,10 +42,8 @@ export function getEvents(callback) {
                     })
                 }
             })
-            console.log(promises)
             Promise.all(promises).then(function (array_of_recurring_events) {
                 array_of_recurring_events.forEach(recurring_events => {
-                    console.log(recurring_events)
                     events.push.apply(events, recurring_events)
                 })
                 callback(events)
