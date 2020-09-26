@@ -5,7 +5,7 @@ build:
 
 deploy: build
 	gcloud builds submit --tag gcr.io/cya-website/website
-	gcloud beta run deploy website --image gcr.io/cya-website/website --platform managed
+	gcloud run deploy website --image gcr.io/cya-website/website --platform managed --region uscentral1
 
 local-docker: build
 	docker build . -t local_website
