@@ -8,7 +8,7 @@ deploy: build
 	gcloud run deploy website --image gcr.io/cya-website/website --platform managed --region us-central1
 
 local-docker: build
-	docker build . -t local_website
+	docker build . -t local_website --build-arg REACT_APP_GCAL_API_KEY=${REACT_APP_GCAL_API_KEY}
 	docker run -p 3000:3000 -e PORT=3000 --name local_website local_website
 
 run:

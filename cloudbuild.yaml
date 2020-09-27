@@ -2,9 +2,11 @@ steps:
   - name: node
     entrypoint: yarn
     args: ['install']
+    id: Yarn Install
   - name: node
     entrypoint: yarn
     args: ['build']
+    id: Yarn Build
   - name: gcr.io/cloud-builders/docker
     args:
       - build
@@ -14,7 +16,9 @@ steps:
       - .
       - '-f'
       - Dockerfile
-    id: Build
+      - '--build-args'
+      - 'REACT_APP_GCAL_API_KEY=$_GCAL_API_KEY'
+    id: Docker Build
   - name: gcr.io/cloud-builders/docker
     args:
       - push
