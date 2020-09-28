@@ -1,7 +1,5 @@
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/configfile.template
-ARG REACT_APP_GCAL_API_KEY
-ENV REACT_APP_GCAL_API_KEY=$REACT_APP_GCAL_API_KEY
 ENV PORT 8080
 ENV HOST 0.0.0.0
 RUN sh -c "envsubst '\$PORT'  < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf"
