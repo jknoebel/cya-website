@@ -30,6 +30,8 @@ function EventAgenda({ event }) {
     </span>
 }
 
+let subscriptionLink = "https://calendar.google.com/calendar/u/0/r?cid=c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com"
+
 export default class Calendar  extends React.Component {
     constructor() {
         super()
@@ -45,7 +47,7 @@ export default class Calendar  extends React.Component {
     render() {
         return (
             <div {...this.props} className="BigCalendar">
-                <h3>CYA Calendar<a href="https://calendar.google.com/calendar/u/2?cid=YzU1aGM3czk0cGk2N2s5ajE2Y244NXRiYXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" className="button small"><span className="label">Subscribe to Calendar</span></a>
+                <h3>CYA Calendar<a href={subscriptionLink} className="button small"><span className="label">Subscribe to Calendar</span></a>
                 </h3>
                 <BigCalendar
                     defaultView='agenda'
