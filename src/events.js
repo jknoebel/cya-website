@@ -39,6 +39,7 @@ export function getEvents(callback) {
                         start: new Date(event.start.date || event.start.dateTime),
                         end: new Date(event.end.date || event.end.dateTime),
                         title: event.summary,
+                        description: event.description,
                     })
                 }
             })
