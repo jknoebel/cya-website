@@ -25,8 +25,7 @@ let formats = {
 function EventAgenda({ event }) {
     return <span>
         <b>{event.title}</b>
-        {/* <p> Location: {event.location}</p> */}
-        <p>{event.description}</p>
+        <p dangerouslySetInnerHTML={{__html: event.description}}></p>
     </span>
 }
 
