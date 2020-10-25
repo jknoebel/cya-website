@@ -98,7 +98,7 @@ function App() {
                 <footer className="wrapper style1 align-center">
                         <div className="inner">
                             <ul className="icons">
-                                {/* <!-- <li><a href="https://twitter.com/StMaryCYA" className="icon brands style2 fa-twitter"><span className="label">Twitter</span></a></li> --> */}
+                                <li><a href="https://www.instagram.com/cya_atx/" className="icon brands style2 fa-instagram"><span className="label">Instagram</span></a></li>
                                 <li><a href="https://www.facebook.com/groups/stmaryyoungadults/" className="icon brands style2 fa-facebook-f"><span className="label">Facebook</span></a></li>
                                 <li><a href="mailto:cathedralyoungadults@smcaustin.org" className="icon style2 fa-envelope"><span className="label">Email</span></a></li>
                                 <li><a href="https://github.com/jknoebel/cya-website" className="icon brands style2 fa-github"><span className="label">Github</span></a></li>
