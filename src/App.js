@@ -18,7 +18,7 @@ function App() {
                         <li><a href="/events" className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">See Upcoming Events</a></li>
                     </ul><ul className="actions">
                         <li><a href="#first" className="button large wide smooth-scroll-middle">Learn More</a></li>
-                        <li><a href="#contact" className="button primary large wide smooth-scroll-middle">Join Now</a></li>
+                        <li><a href="#join" className="button primary large wide smooth-scroll-middle">Join Now</a></li>
                     </ul>
                 </div>
                 <div className="image" id="banner-image-box">
@@ -61,7 +61,7 @@ function App() {
             </section>
 
             {/* <!-- Form --> */}
-            <section className="wrapper style1 align-center" id="contact">
+            <section className="wrapper style1 align-center" id="join">
                 <div className="inner medium">
                     <h2>Get connected</h2>
                     Fill out the form below to keep up with everything going on in our group. <br/>
