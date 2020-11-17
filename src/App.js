@@ -81,7 +81,7 @@ function App() {
                                         <input type="tel" name="mobile_phone" placeholder="Mobile Phone" />
                                     </div>
                                     <div className="field">
-                                        <input type="checkbox" name="code_of_conduct" />
+                                        <input type="checkbox" id="code_of_conduct" name="code_of_conduct" />
                                         <label htmlFor="code_of_conduct">
                                             I agree to the <a target="_blank"
                                                 href="https://docs.google.com/document/d/1-NB4Bdusq8EdElQR4nSKkO9gXjpGOXFSdalEldRGimU/edit?usp=sharing">Code of Conduct</a>.
