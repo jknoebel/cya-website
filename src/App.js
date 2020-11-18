@@ -66,7 +66,7 @@ function App() {
                     <h2>Get connected</h2>
                     Fill out the form below to keep up with everything going on in our group. <br/>
                         <div className="align-left" width="820px">
-                            <form method="post" action="https://app.flocknote.com/group/369373/addToGroupFromOutside" target="_blank">
+                            <form method="post" action="https://app.flocknote.com/group/369373/addToGroupFromOutside" target="_blank" id="cya_signup">
                                 <div className="fields">
                                     <div className="field half">
                                         <input type="name" name="fname" placeholder="First Name" required/>
