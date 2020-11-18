@@ -69,13 +69,13 @@ function App() {
                             <form method="post" action="https://app.flocknote.com/group/369373/addToGroupFromOutside" target="_blank">
                                 <div className="fields">
                                     <div className="field half">
-                                  <input type="name" name="fname" placeholder="First Name" required/>
+                                        <input type="name" name="fname" placeholder="First Name" required/>
                                     </div>
                                     <div className="field half">
-                                  <input type="name" name="lname" placeholder="Last Name" required/>
+                                        <input type="name" name="lname" placeholder="Last Name" required/>
                                     </div>
                                     <div className="field half">
-                                  <input type="email" name="email" placeholder="Email Address" required/>
+                                        <input type="email" name="email" placeholder="Email Address" required/>
                                     </div>
                                     <div className="field half">
                                         <input type="tel" name="mobile_phone" placeholder="Mobile Phone" />
