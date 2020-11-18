@@ -33,7 +33,7 @@ export function getEvents(callback) {
                 if ('recurrence' in event) {
                     let recurring_events_promise = getRecurringEvents(event)
                     promises.push(recurring_events_promise)
-                } else {
+                } else if (event.status != 'cancelled') {
                     events.push({
                         id: event.id,
                         start: new Date(event.start.date || event.start.dateTime),
