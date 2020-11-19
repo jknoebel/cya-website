@@ -83,7 +83,7 @@ function App() {
                                     <div className="field">
                                         <input type="checkbox" id="code_of_conduct" name="code_of_conduct" required/>
                                         <label htmlFor="code_of_conduct">
-                                            I agree to the <a target="_blank"
+                                      I agree to the <a target="_blank" rel="noopener noreferrer"
                                                 href="https://docs.google.com/document/d/1-NB4Bdusq8EdElQR4nSKkO9gXjpGOXFSdalEldRGimU/edit?usp=sharing">Code of Conduct</a>.
                                         </label>
                                     </div>

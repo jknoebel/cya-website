@@ -9,16 +9,15 @@ let event_url = `${base_url}${CALENDAR_ID}/events?key=${API_KEY}`
 async function getRecurringEvents(event) {
     let recurring_event_url = `${base_url}${CALENDAR_ID}/events/${event.id}/instances?key=${API_KEY}&maxResults=50`
     const resp = await request.get(recurring_event_url)
-    const events = []
-    JSON.parse(resp.text).items.map((event) => {
-        events.push({
+    const events = JSON.parse(resp.text).items.map((event) => {
+        return {
             id: event.id,
             start: new Date(event.start.date || event.start.dateTime),
             end: new Date(event.end.date || event.end.dateTime),
             title: event.summary,
             description: event.description,
             // location: event.location
-        })
+        }
     })
     return events
 }
@@ -29,11 +28,11 @@ export function getEvents(callback) {
         .then(resp => {
             const events = []
             const promises = []
-            JSON.parse(resp.text).items.map((event) => {
+            JSON.parse(resp.text).items.forEach((event) => {
                 if ('recurrence' in event) {
                     let recurring_events_promise = getRecurringEvents(event)
                     promises.push(recurring_events_promise)
-                } else if (event.status != 'cancelled') {
+                } else if (event.status !== 'cancelled') {
                     events.push({
                         id: event.id,
                         start: new Date(event.start.date || event.start.dateTime),
