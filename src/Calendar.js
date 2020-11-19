@@ -1,15 +1,16 @@
 import React from 'react';
-import BigCalendar from 'react-big-calendar-like-google';
+import FullCalendar from '@fullcalendar/react'
+import listPlugin from '@fullcalendar/list'
 import { getEvents } from './events';
 import moment from 'moment';
 
-import 'react-big-calendar-like-google/lib/css/react-big-calendar.css'
+// import 'react-big-calendar-like-google/lib/css/react-big-calendar.css'
 
-import './css/calendar.css'
+// import './css/calendar.css'
 
-BigCalendar.setLocalizer(
-    BigCalendar.momentLocalizer(moment)
-);
+// BigCalendar.setLocalizer(
+//     BigCalendar.momentLocalizer(moment)
+// );
 
 let formats = {
 
@@ -31,7 +32,7 @@ function EventAgenda({ event }) {
 
 let subscriptionLink = "https://calendar.google.com/calendar/u/0/r?cid=c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com"
 
-export default class Calendar  extends React.Component {
+export default class Calendar extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -45,21 +46,29 @@ export default class Calendar  extends React.Component {
     }
     render() {
         const { to, staticContext, ...rest } = this.props;
+        // return (
+        //     <div {...rest} className="BigCalendar">
+        //         <h3>CYA Calendar<a href={subscriptionLink} className="button small"><span className="label">Subscribe to Calendar</span></a>
+        //         </h3>
+        //         <BigCalendar
+        //             defaultView='agenda'
+        //             formats={formats}
+        //             events={this.state.events}
+        //             components={{
+        //                 agenda: {
+        //                     event: EventAgenda
+        //                 }
+        //             }}
+        //         />
+        //     </div>
+        // )
         return (
-            <div {...rest} className="BigCalendar">
-                <h3>CYA Calendar<a href={subscriptionLink} className="button small"><span className="label">Subscribe to Calendar</span></a>
-                </h3>
-                <BigCalendar
-                    defaultView='agenda'
-                    formats={formats}
-                    events={this.state.events}
-                    components={{
-                        agenda: {
-                            event: EventAgenda
-                        }
-                    }}
-                />
-            </div>
+            <FullCalendar
+                plugins={[listPlugin]}
+                initialView="listMonth"
+                events={this.state.events}
+                eventContent={EventAgenda}
+            />
         )
     }
 }
