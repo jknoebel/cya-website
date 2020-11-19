@@ -44,8 +44,9 @@ export default class Calendar  extends React.Component {
         })
     }
     render() {
+        const { to, staticContext, ...rest } = this.props;
         return (
-            <div {...this.props} className="BigCalendar">
+            <div {...rest} className="BigCalendar">
                 <h3>CYA Calendar<a href={subscriptionLink} className="button small"><span className="label">Subscribe to Calendar</span></a>
                 </h3>
                 <BigCalendar
