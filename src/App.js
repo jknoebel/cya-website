@@ -60,6 +60,22 @@ function App() {
                 </div>
             </section>
 
+
+            {/* <!-- Three --> */}
+            <section className="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="third">
+                <div className="content">
+                    <h2>Our Core Team</h2>
+                    <p>The Cathedral Young Adults Core Team serves the CYA by providing foundational events and structure for the community. 
+                        The team consists of Director, Coordinator, Human Pillar, Spiritual Pillar, Intellectual Pillar, Apostolic Pillar, Men's Liaison,
+                        Women's Liaison, and Social Media Coordinator. Click below to learn how each of these roles serves the community and how to apply.
+                    </p>
+                    <a href="/core-team" className="button primary large wide smooth-scroll-middle icon major">Learn more</a>
+                </div>
+                <div className="image">
+                    <img src="images/stmarys_stained_glass.jpg" alt="" />
+                </div>
+            </section>
+
             {/* <!-- Form --> */}
             <section className="wrapper style1 align-center" id="join">
                 <div className="inner medium">
