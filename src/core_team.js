@@ -7,7 +7,6 @@ function CoreTeam() {
         //  < !--Wrapper -- >
     <div id="wrapper" className="divided">
         <section class="wrapper style1 align-center">
-            {/* <div class="inner"> */}
             <h2>CYA Core Team</h2>
             <p>The Cathedral Young Adults Core Team serves the CYA by providing foundational events and structure for the community. </p>
             <div class="items style1 medium onscroll-fade-in">
@@ -111,7 +110,6 @@ function CoreTeam() {
                 </div></section>
             </div>
             {/* TODO: Add Contact info!! */}
-        {/* </div> */}
         </section>
         {/* <!-- Footer --> */}
         <footer className="wrapper style1 align-center">
