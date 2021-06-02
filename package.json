@@ -12,6 +12,7 @@
     "react-big-calendar-like-google": "0.0.3",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.2",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^3.3.0",
     "superagent": "^5.1.3"
   },

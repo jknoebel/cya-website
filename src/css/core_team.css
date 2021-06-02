@@ -1,12 +1,12 @@
-h3 {
+h3.role {
     margin-left: 0;
 }
 
-.items.style1 {
+.items.style1#roles {
     padding-right: 2.1875rem;
     padding-left: 2.1875rem;
 }
 
-ul.actions {
+ul.actions#apply_buttons {
     justify-content: center;
 }
