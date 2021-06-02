@@ -1,4 +1,4 @@
-h3 {
+h3#calendar_title {
     margin: 1rem 0 0 1rem;
     overflow: hidden;
 }
@@ -8,7 +8,7 @@ h3 {
     margin-top: 15px;
 }
 
-.button.small {
+.button.small#subscribe {
     float: right;
     margin-right: 1rem;
 }

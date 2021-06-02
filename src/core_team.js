@@ -9,10 +9,10 @@ function CoreTeam() {
         <section className="wrapper style1 align-center">
             <h2>CYA Core Team</h2>
             <p>The Cathedral Young Adults Core Team serves the CYA by providing foundational events and structure for the community. </p>
-            <div className="items style1 medium onscroll-fade-in">
+            <div className="items style1 medium onscroll-fade-in" id="roles">
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-sitemap"></span>
-                    <h3 >Director</h3>
+                    <h3 className="role">Director</h3>
                     <p>
                         The Director plans overall goals and vision of CYA and leads CYA core team. She works with the Coordinator and the priests
                         to cultivate mission and organize Pillars. She organizes and runs the core team meetings.
@@ -22,7 +22,7 @@ function CoreTeam() {
                 </div></section>
                 <section ><div className="inner">
                     <span className="icon solid style2 major fa-clipboard"></span>
-                    <h3>Coordinator</h3>
+                    <h3 className="role">Coordinator</h3>
                     <p>
                     The Coordinator works with the Director and the priests to execute vision and organize Pillars, providing support as needed.
                     He provides a practical perspective to Director for decision making. He manages the CYA schedule and new member flow. 
@@ -33,7 +33,7 @@ function CoreTeam() {
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-lightbulb"></span>
-                    <h3>Intellectual Pillar</h3>
+                    <h3 className="role">Intellectual Pillar</h3>
                     <p>
                     The Intellectual Pillar organizes group studies and events for intellectual formation, studying books,
                     Liturgical themes, and theology. They may coordinate speaker events on Church teachings. They should help
@@ -45,7 +45,7 @@ function CoreTeam() {
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-users"></span>
-                    <h3>Human Pillar</h3>
+                    <h3 className="role">Human Pillar</h3>
                     <p>
                     The Human Pillar organizes social events, such as coffee and donuts after Mass or whole-community outdoors events.
                     They seek out new faces at events and plug them into the group.
@@ -55,7 +55,7 @@ function CoreTeam() {
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-place-of-worship"></span>
-                    <h3>Spiritual Pillar</h3>
+                    <h3 className="role">Spiritual Pillar</h3>
                     <p>
                     The Spirital Pillar organizes spiritual events for the community, especially Adoration, both scheduling and music.
                     They may potentially coordinate retreats for the CYA with Director/Coordinator.
@@ -65,7 +65,7 @@ function CoreTeam() {
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-hand-holding-heart"></span>
-                    <h3>Apostolic Pillar</h3>
+                    <h3 className="role">Apostolic Pillar</h3>
                     <p>
                     The Apostolic Pillar organizes CYA outreach and volunteering both within and outside of the parish (Parent’s Night Out, service events/drives).
                     They also encourage connect CYA members to service commitments within the parish to deliver Communion, to serve in the Mass, etc.
@@ -75,7 +75,7 @@ function CoreTeam() {
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-male"></span>
-                    <h3>Men's Liaison</h3>
+                    <h3 className="role">Men's Liaison</h3>
                     <p>
                     The Men's Liaison is the point person for the men of the CYA. 
                     He should promote and coordinate men’s outreach, Bible studies/formation nights, and men's programs like Exodus. 
@@ -87,7 +87,7 @@ function CoreTeam() {
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-female"></span>
-                    <h3>Women's Liaison</h3>
+                    <h3 className="role">Women's Liaison</h3>
                     <p> 
                     The Women's Liaison is the point person for the women of the CYA.
                     She should promote and coordinate women's outreach, Bible studies/formation nights, and women's programs like Fiat.
@@ -99,7 +99,7 @@ function CoreTeam() {
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major brands fa-instagram"></span>
-                    <h3>Social Media Coordinator</h3>
+                    <h3 className="role">Social Media Coordinator</h3>
                     <p>
                     The Social Media Coordinator is responsible for creating and sharing media on our platforms. 
                     She should create and share graphics for events from the pillars on social media, with help from the respective pillar
@@ -111,11 +111,11 @@ function CoreTeam() {
             </div>
         </section>
         {/* <!-- Form --> */}
-        <section className="wrapper style1 align-center" id="join">
-            <div className="inner medium">
+        <section className="wrapper style1 align-center" id="apply">
+            <div className="inner">
                 <h2>Interested in Serving on the Core Team?</h2>
                 Click below to submit an application to join or a nomination for someone else. <p/>
-                <ul className="actions">
+                <ul className="actions" id="apply_buttons">
                     <li><a href="https://forms.gle/NBNziQ7NLgNf7bQh7" target="_blank" className="button large wide smooth-scroll-middle">Submit a Nomination</a></li>
                     <li><a href="https://forms.gle/qUSrut2rEX5MGbb56" target="_blank" className="button primary large wide smooth-scroll-middle">Apply Now</a></li>
                 </ul>
