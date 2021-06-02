@@ -6,3 +6,7 @@ h3 {
     padding-right: 2.1875rem;
     padding-left: 2.1875rem;
 }
+
+ul.actions {
+    justify-content: center;
+}

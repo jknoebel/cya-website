@@ -109,7 +109,17 @@ function CoreTeam() {
                     </p>
                 </div></section>
             </div>
-            {/* TODO: Add Contact info!! */}
+        </section>
+        {/* <!-- Form --> */}
+        <section className="wrapper style1 align-center" id="join">
+            <div className="inner medium">
+                <h2>Interested in Serving on the Core Team?</h2>
+                Click below to submit an application to join or a nomination for someone else. <p/>
+                <ul className="actions">
+                    <li><a href="https://forms.gle/NBNziQ7NLgNf7bQh7" target="_blank" className="button large wide smooth-scroll-middle">Submit a Nomination</a></li>
+                    <li><a href="https://forms.gle/qUSrut2rEX5MGbb56" target="_blank" className="button primary large wide smooth-scroll-middle">Apply Now</a></li>
+                </ul>
+            </div>
         </section>
         {/* <!-- Footer --> */}
         <footer className="wrapper style1 align-center">
