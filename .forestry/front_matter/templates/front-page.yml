@@ -1,0 +1,14 @@
+---
+label: Front Page
+hide_body: true
+fields:
+- type: field_group
+  name: Banner
+  label: Banner
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Body
+    label: Body
