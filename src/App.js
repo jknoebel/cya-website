@@ -1,6 +1,7 @@
 import React from 'react';
 // import './App.css';
 import './css/main.css';
+import Content from './content/front_page.json'
 
 function App() {
   return (
@@ -10,10 +11,8 @@ function App() {
             {/* <!-- Banner --> */}
             <section className="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
                 <div className="content">
-                    <h1>Cathedral Young Adults</h1>
-                    <p className="major">Our mission is to call young adults to discipleship with Jesus Christ, to sanctify them
-                    through formation in our community groups, and to send them out as disciples of Christ as we walk alongside them in
-							Spiritual Accompaniment.</p>
+                    <h1>{Content.Banner.Title}</h1>
+                    <p className="major">{Content.Banner.Body}</p>
                   <ul className="actions" id="event-button-action">
                         <li><a href="/events" className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">See Upcoming Events</a></li>
                     </ul><ul className="actions">
