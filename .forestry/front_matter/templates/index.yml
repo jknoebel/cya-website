@@ -15,16 +15,51 @@ fields:
   - name: Link
     type: field_group_list
     fields:
-    - name: path
-      type: text
-      config:
-        required: false
-      label: Path
-    - name: text
-      type: text
-      config:
-        required: false
-      label: text
+    - name: Event
+      type: field_group
+      config: {}
+      fields:
+      - name: path
+        type: text
+        config:
+          required: false
+        label: Path
+      - name: text
+        type: text
+        config:
+          required: false
+        label: Text
+      label: Event
+    - name: Left
+      type: field_group
+      config: {}
+      fields:
+      - name: path
+        type: text
+        config:
+          required: false
+        label: Path
+      - name: text
+        type: text
+        config:
+          required: false
+        label: Text
+      label: Left
+    - name: Right
+      type: field_group
+      config: {}
+      fields:
+      - name: path
+        type: text
+        config:
+          required: false
+        label: Path
+      - name: text
+        type: text
+        config:
+          required: false
+        label: Text
+      label: Right
     config:
       min: 
       max: 
