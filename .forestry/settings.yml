@@ -15,9 +15,11 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_output_directory: build
+  preview_env:
+  - NEXT_PUBLIC_GCAL_API_KEY=AIzaSyDNP_uhG02qtAvjGyNsRWQAOvphp94Lldo=
+  preview_output_directory: out
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: yarn build
+  instant_preview_command: npm run dev
