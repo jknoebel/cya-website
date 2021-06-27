@@ -4,7 +4,7 @@ build:
 	npm run build
 
 local-docker: build
-	docker build . -t local_website
+	docker build . -f Dockerfile.dev -t local_website
 	docker run -p 3000:3000 -e PORT=3000 --name local_website local_website
 
 run:
