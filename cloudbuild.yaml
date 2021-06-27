@@ -1,10 +1,10 @@
 steps:
   - name: node
-    entrypoint: yarn
+    entrypoint: npm
     args: ['install']
   - name: node
-    entrypoint: yarn
-    args: ['build']
+    entrypoint: npm
+    args: ['run build']
     env: 
       # This key is restricted to work only from smcya.org
       - 'REACT_APP_GCAL_API_KEY=AIzaSyDNP_uhG02qtAvjGyNsRWQAOvphp94Lldo'

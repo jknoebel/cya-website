@@ -1,6 +1,4 @@
 import React from 'react';
-import './css/main.css';
-import './css/core_team.css'
 
 function CoreTeam() {
   return (

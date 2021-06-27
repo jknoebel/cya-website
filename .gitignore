@@ -1,7 +1,10 @@
 .vscode
 .DS_Store
 node_modules/
-build/
+out/
 yarn.lock
 tmp/
 .env
+.next
+.env.local
+package-lock.json

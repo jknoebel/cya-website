@@ -1,4 +1,4 @@
-h3#calendar_title {
+h3{
     margin: 1rem 0 0 1rem;
     overflow: hidden;
 }
@@ -12,3 +12,11 @@ h3#calendar_title {
     float: right;
     margin-right: 1rem;
 }
+
+.rbc-agenda-view table {
+    margin: 0;
+  }
+  
+  .rbc-toolbar button {
+    box-shadow: none;
+  }
