@@ -112,3 +112,5 @@ fields:
   - type: text
     name: Button
     label: Button
+pages:
+- pages/content/index.yml
