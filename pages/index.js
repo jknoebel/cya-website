@@ -13,10 +13,10 @@ function App() {
                     <h1>{Content.Banner.Title}</h1>
                     <p className="major">{Content.Banner.Body}</p>
                   <ul className="actions" id="event-button-action">
-                        <li><Link href="/events"><a className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">{Content.Banner.Button.Event}</a></Link></li>
+                        <li><Link href={Content.Banner.Link.Event.path}><a className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">{Content.Banner.Link.Event.text}</a></Link></li>
                     </ul><ul className="actions">
-                        <li><a href="#first" className="button large wide smooth-scroll-middle">{Content.Banner.Button.Learn}</a></li>
-                        <li><a href="#join" className="button primary large wide smooth-scroll-middle">{Content.Banner.Button.Join}</a></li>
+                        <li><a href={Content.Banner.Link.Left.path} className="button large wide smooth-scroll-middle">{Content.Banner.Link.Left.text}</a></li>
+                        <li><a href={Content.Banner.Link.Right.path} className="button primary large wide smooth-scroll-middle">{Content.Banner.Link.Right.text}</a></li>
                     </ul>
                 </div>
                 <div className="image" id="banner-image-box">
@@ -26,7 +26,7 @@ function App() {
 
             { Content.Section.map(function(section) {
                 return (
-                    <section className={`spotlight style1 orient-${section.Orient} content-align-left image-position-center onscroll-image-fade-in`} id="first">
+                    <section className={`spotlight style1 orient-${section.Orient} content-align-left image-position-center onscroll-image-fade-in`} id={section.id}>
                         <div className="content">
                             <h2>{section.Title}</h2>
                             <p>{section.Body} </p>
