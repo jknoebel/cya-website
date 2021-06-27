@@ -1,5 +1,5 @@
 import React from 'react';
-import Content from './content/front_page.json'
+import Content from './content/index.yml'
 import Link from 'next/link'
 
 function App() {
