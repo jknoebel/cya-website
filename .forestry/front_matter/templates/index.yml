@@ -12,19 +12,24 @@ fields:
   - type: textarea
     name: Body
     label: Body
-  - type: field_group
-    name: Button
-    label: Button
+  - name: Link
+    type: field_group_list
     fields:
-    - type: text
-      name: Event
-      label: Event
-    - type: text
-      name: Learn
-      label: Learn
-    - type: text
-      name: Join
-      label: Join
+    - name: path
+      type: text
+      config:
+        required: false
+      label: Path
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Link
 - type: field_group_list
   name: Section
   label: Section
@@ -44,6 +49,21 @@ fields:
   - type: text
     name: Orient
     label: Orient
+  - name: Link
+    type: field_group
+    config: {}
+    fields:
+    - name: path
+      type: text
+      config:
+        required: false
+      label: Path
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    label: Link
 - type: field_group
   name: Form
   label: Form
