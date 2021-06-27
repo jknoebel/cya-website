@@ -3,12 +3,19 @@ Banner:
   Body: >-
     Our mission is to call young adults to discipleship with Jesus Christ, to sanctify them through formation 
     in our community groups, and to send them out as disciples of Christ as we walk alongside them in Spiritual Accompaniment.
-  Button:
-    Event: See Upcoming Events
-    Learn: Learn More
-    Join: Join Now
+  Link:
+    Event: 
+      path: /events
+      text: See Upcoming Events
+    Left: 
+      path: "#first"
+      text: Learn More
+    Right: 
+      path: "#join"
+      text: Join Now
 Section:
-- Title: Our Vision
+- id: first
+  Title: Our Vision
   Body: "We want to be a community where young adults in the city of Austin and particularly at the parish of St. Mary’s Cathedral:"
   List: 
   - encounter the Lord in the sacraments, interior prayer, and the community
@@ -19,7 +26,8 @@ Section:
   - continue to call, encourage, and teach others to do the same.
   Image: images/stmarys_outside.jpg
   Orient: right
-- Title: Who We Welcome
+- id: second
+  Title: Who We Welcome
   Body: >-
     While the group is primarily made up of single Catholics in their 20s and 30s and events are geared toward
     this demographic, anyone between the ages of 18-40 is welcome to join, including young married couples. Our members
@@ -27,14 +35,15 @@ Section:
     church in years, we will welcome you with open arms.
   Image: images/stmarys_outside.jpg
   Orient: left
-- Title: Our Core Team
+- id: third
+  Title: Our Core Team
   Body: >-
     The Cathedral Young Adults Core Team serves the CYA by providing foundational events and structure for the community. 
     The team consists of Director, Coordinator, Human Pillar, Spiritual Pillar, Intellectual Pillar, Apostolic Pillar, Men's Liaison,
     Women's Liaison, and Social Media Coordinator. Click below to learn how each of these roles serves the community and how to apply.
   Image: images/stmarys_stained_glass.jpg
   Orient: right
-  Button:
+  Link:
     path: /core-team
     text: Learn more
 Form:
