@@ -1,0 +1,59 @@
+---
+label: index
+hide_body: true
+fields:
+- type: field_group
+  name: Banner
+  label: Banner
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Body
+    label: Body
+  - type: field_group
+    name: Button
+    label: Button
+    fields:
+    - type: text
+      name: Event
+      label: Event
+    - type: text
+      name: Learn
+      label: Learn
+    - type: text
+      name: Join
+      label: Join
+- type: field_group_list
+  name: Section
+  label: Section
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Body
+    label: Body
+  - type: list
+    name: List
+    label: List
+  - type: file
+    name: Image
+    label: Image
+  - type: text
+    name: Orient
+    label: Orient
+- type: field_group
+  name: Form
+  label: Form
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: text
+    name: Body
+    label: Body
+  - type: text
+    name: Button
+    label: Button
