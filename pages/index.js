@@ -1,7 +1,6 @@
 import React from 'react';
-// import './App.css';
-import './css/main.css';
 import Content from './content/front_page.json'
+import Link from 'next/link'
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
                     <h1>{Content.Banner.Title}</h1>
                     <p className="major">{Content.Banner.Body}</p>
                   <ul className="actions" id="event-button-action">
-                        <li><a href="/events" className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">See Upcoming Events</a></li>
+                        <li><Link href="/events"><a className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">See Upcoming Events</a></Link></li>
                     </ul><ul className="actions">
                         <li><a href="#first" className="button large wide smooth-scroll-middle">Learn More</a></li>
                         <li><a href="#join" className="button primary large wide smooth-scroll-middle">Join Now</a></li>
@@ -55,7 +54,7 @@ function App() {
                                 church in years, we will welcome you with open arms. </p>
                 </div>
                 <div className="image">
-                    <img src="images/stmarys_inside.jpg" alt="" />
+                    <img src="/images/stmarys_inside.jpg" alt="" />
                 </div>
             </section>
 
@@ -68,7 +67,7 @@ function App() {
                         The team consists of Director, Coordinator, Human Pillar, Spiritual Pillar, Intellectual Pillar, Apostolic Pillar, Men's Liaison,
                         Women's Liaison, and Social Media Coordinator. Click below to learn how each of these roles serves the community and how to apply.
                     </p>
-                    <a href="/core-team" className="button primary large wide smooth-scroll-middle icon major">Learn more</a>
+                    <Link href="/core-team"><a className="button primary large wide smooth-scroll-middle icon major">Learn more</a></Link>
                 </div>
                 <div className="image">
                     <img src="images/stmarys_stained_glass.jpg" alt="" />

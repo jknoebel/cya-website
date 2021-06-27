@@ -1,11 +1,9 @@
 import React from 'react';
 import BigCalendar from 'react-big-calendar-like-google';
-import { getEvents } from './events';
+import { getEvents } from '../lib/get_events';
 import moment from 'moment';
 
 import 'react-big-calendar-like-google/lib/css/react-big-calendar.css'
-
-import './css/calendar.css'
 
 BigCalendar.setLocalizer(
     BigCalendar.momentLocalizer(moment)
@@ -31,7 +29,7 @@ function EventAgenda({ event }) {
 
 let subscriptionLink = "https://calendar.google.com/calendar/u/0/r?cid=c55hc7s94pi67k9j16cn85tbas@group.calendar.google.com"
 
-export default class Calendar  extends React.Component {
+export default class Calendar extends React.Component {
     constructor() {
         super()
         this.state = {
