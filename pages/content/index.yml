@@ -1,17 +1,17 @@
 ---
 Banner:
   Title: Cathedral Young Adults
-  Body: Our mission is to call young adults to discipleship with Jesus Christ, to
-    sanctify them through formation  in our community groups, and to send them out
-    as disciples of Christ as we walk alongside them in Spiritual Accompaniment.
-  Link:
-  - Event:
-      path: "/events"
+  Body: >-
+    Our mission is to call young adults to discipleship with Jesus Christ, to sanctify them through formation 
+    in our community groups, and to send them out as disciples of Christ as we walk alongside them in Spiritual Accompaniment.
+  Buttons:
+    - visible: true
+      path: /events
       text: See Upcoming Events
-    Left:
+    - visible: true
       path: "#first"
       text: Learn More
-    Right:
+    - visible: true
       path: "#join"
       text: Join Now
 Section:
@@ -30,7 +30,8 @@ Section:
   - continue to call, encourage, and teach others to do the same.
   Image: images/stmarys_outside.jpg
   Orient: right
-  Link:
+  Button:
+    visible: false
     path: ''
     text: ''
 - id: second
@@ -43,7 +44,8 @@ Section:
   Image: images/stmarys_outside.jpg
   Orient: left
   List: []
-  Link:
+  Button:
+    visible: false
     path: ''
     text: ''
 - id: third
@@ -55,8 +57,9 @@ Section:
     these roles serves the community and how to apply.
   Image: images/stmarys_stained_glass.jpg
   Orient: right
-  Link:
-    path: "/core-team"
+  Button:
+    visible: true
+    path: /core-team
     text: Learn more
   List: []
 Form:

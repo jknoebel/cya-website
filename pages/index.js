@@ -13,10 +13,10 @@ function App() {
                     <h1>{Content.Banner.Title}</h1>
                     <p className="major">{Content.Banner.Body}</p>
                   <ul className="actions" id="event-button-action">
-                        <li><Link href={Content.Banner.Link.Event.path}><a className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">{Content.Banner.Link.Event.text}</a></Link></li>
+                        <li><Link href={Content.Banner.Buttons[0].path}><a className="button fit large wide smooth-scroll-middle icon major fa-calendar-alt">{Content.Banner.Buttons[0].text}</a></Link></li>
                     </ul><ul className="actions">
-                        <li><a href={Content.Banner.Link.Left.path} className="button large wide smooth-scroll-middle">{Content.Banner.Link.Left.text}</a></li>
-                        <li><a href={Content.Banner.Link.Right.path} className="button primary large wide smooth-scroll-middle">{Content.Banner.Link.Right.text}</a></li>
+                        <li><a href={Content.Banner.Buttons[1].path} className="button large wide smooth-scroll-middle">{Content.Banner.Buttons[1].text}</a></li>
+                        <li><a href={Content.Banner.Buttons[2].path} className="button primary large wide smooth-scroll-middle">{Content.Banner.Buttons[2].text}</a></li>
                     </ul>
                 </div>
                 <div className="image" id="banner-image-box">
@@ -37,7 +37,7 @@ function App() {
                             })}  
                             </ul>
                             }
-                        { section.Button && 
+                        { section.Button.visible && 
                             <Link href={section.Button.path}><a className="button primary large wide smooth-scroll-middle icon major">{section.Button.text}</a></Link>
                         }
                         </div>
