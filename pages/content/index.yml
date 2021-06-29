@@ -3,15 +3,12 @@ Banner:
   Body: >-
     Our mission is to call young adults to discipleship with Jesus Christ, to sanctify them through formation 
     in our community groups, and to send them out as disciples of Christ as we walk alongside them in Spiritual Accompaniment.
-  Link:
-    Event: 
-      path: /events
+  Buttons:
+    - path: /events
       text: See Upcoming Events
-    Left: 
-      path: "#first"
+    - path: "#first"
       text: Learn More
-    Right: 
-      path: "#join"
+    - path: "#join"
       text: Join Now
 Section:
 - id: first
@@ -43,7 +40,7 @@ Section:
     Women's Liaison, and Social Media Coordinator. Click below to learn how each of these roles serves the community and how to apply.
   Image: images/stmarys_stained_glass.jpg
   Orient: right
-  Link:
+  Button:
     path: /core-team
     text: Learn more
 Form:
