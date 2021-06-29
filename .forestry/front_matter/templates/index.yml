@@ -29,8 +29,8 @@ fields:
       type: boolean
       label: Visible
     config:
-      min: 
-      max: 
+      min: 3
+      max: 3
       labelField: 
     label: Buttons
 - type: field_group_list
