@@ -35,7 +35,7 @@ fields:
     label: Buttons
 - type: field_group_list
   name: Section
-  label: Section
+  label: Sections
   fields:
   - type: text
     name: Title
