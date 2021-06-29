@@ -12,7 +12,7 @@ fields:
   - type: textarea
     name: Body
     label: Body
-  - name: Link
+  - name: Buttons
     type: field_group_list
     fields:
     - name: text
@@ -32,7 +32,7 @@ fields:
       min: 
       max: 
       labelField: 
-    label: LInk
+    label: Buttons
 - type: field_group_list
   name: Section
   label: Section
@@ -52,7 +52,7 @@ fields:
   - type: text
     name: Orient
     label: Orient
-  - name: Link
+  - name: Button
     type: field_group
     config: {}
     fields:
@@ -69,7 +69,7 @@ fields:
     - name: visible
       type: boolean
       label: Visible
-    label: Link
+    label: Button
 - type: field_group
   name: Form
   label: Form
