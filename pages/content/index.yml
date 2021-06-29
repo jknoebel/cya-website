@@ -5,11 +5,14 @@ Banner:
     Our mission is to call young adults to discipleship with Jesus Christ, to sanctify them through formation 
     in our community groups, and to send them out as disciples of Christ as we walk alongside them in Spiritual Accompaniment.
   Buttons:
-    - path: /events
+    - visible: true
+      path: /events
       text: See Upcoming Events
-    - path: "#first"
+    - visible: true
+      path: "#first"
       text: Learn More
-    - path: "#join"
+    - visible: true
+      path: "#join"
       text: Join Now
 Section:
 - id: first
@@ -28,6 +31,7 @@ Section:
   Image: images/stmarys_outside.jpg
   Orient: right
   Button:
+    visible: false
     path: ''
     text: ''
 - id: second
@@ -41,6 +45,7 @@ Section:
   Orient: left
   List: []
   Button:
+    visible: false
     path: ''
     text: ''
 - id: third
@@ -53,6 +58,7 @@ Section:
   Image: images/stmarys_stained_glass.jpg
   Orient: right
   Button:
+    visible: true
     path: /core-team
     text: Learn more
   List: []

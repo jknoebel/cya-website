@@ -37,7 +37,7 @@ function App() {
                             })}  
                             </ul>
                             }
-                        { section.Button && 
+                        { section.Button.visible && 
                             <Link href={section.Button.path}><a className="button primary large wide smooth-scroll-middle icon major">{section.Button.text}</a></Link>
                         }
                         </div>
