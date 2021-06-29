@@ -15,56 +15,24 @@ fields:
   - name: Link
     type: field_group_list
     fields:
-    - name: Event
-      type: field_group
-      config: {}
-      fields:
-      - name: path
-        type: text
-        config:
-          required: false
-        label: Path
-      - name: text
-        type: text
-        config:
-          required: false
-        label: Text
-      label: Event
-    - name: Left
-      type: field_group
-      config: {}
-      fields:
-      - name: path
-        type: text
-        config:
-          required: false
-        label: Path
-      - name: text
-        type: text
-        config:
-          required: false
-        label: Text
-      label: Left
-    - name: Right
-      type: field_group
-      config: {}
-      fields:
-      - name: path
-        type: text
-        config:
-          required: false
-        label: Path
-      - name: text
-        type: text
-        config:
-          required: false
-        label: Text
-      label: Right
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: path
+      type: text
+      config:
+        required: false
+      label: Path
+    - name: visible
+      type: boolean
+      label: Visible
     config:
       min: 
       max: 
       labelField: 
-    label: Link
+    label: LInk
 - type: field_group_list
   name: Section
   label: Section
@@ -98,6 +66,9 @@ fields:
       config:
         required: false
       label: Text
+    - name: visible
+      type: boolean
+      label: Visible
     label: Link
 - type: field_group
   name: Form
