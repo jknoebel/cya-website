@@ -3,8 +3,9 @@ Banner:
   body: >-
     The Cathedral Young Adults Core Team serves the CYA by providing 
     foundational events and structure for the community.
-Roles:
-  - - name: Director
+Rows:
+  - Roles: 
+    - name: Director
       body: >-
         The Director plans overall goals and vision of CYA and leads CYA core team. She works with the Coordinator and the priests
         to cultivate mission and organize Pillars. She organizes and runs the core team meetings.
@@ -28,7 +29,8 @@ Roles:
         long-term planning, experience leading small group discussions
       members: "Current Members: Oliver Ha, Grant Varner"
       icon: lightbulb
-  - - name: Human Pillar
+  - Roles: 
+    - name: Human Pillar
       body: >-
         The Human Pillar organizes social events, such as coffee and donuts after Mass or whole-community outdoors events.
         They seek out new faces at events and plug them into the group.
@@ -49,7 +51,8 @@ Roles:
         They should have these gifts/qualities: zeal for souls, organization/administration, love of service
       members: "Current Members: Jessica MacNair and Megan Dawkins"
       icon: hand-holding-heart
-  - - name: Men's Liaison
+  - Roles: 
+    - name: Men's Liaison
       body: >-
         The Men's Liaison is the point person for the men of the CYA. 
         He should promote and coordinate men’s outreach, Bible studies/formation nights, and men's programs like Exodus. 

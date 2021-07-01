@@ -9,9 +9,9 @@ function CoreTeam() {
             <h2>{Content.Banner.title}</h2>
             <p>{Content.Banner.body}</p>
             <div className="items style1 medium onscroll-fade-in" id="roles">
-            { Content.Roles.map(function(role_row) {    
+            { Content.Rows.map(function(role_row) {    
                 return (
-                    role_row.map(function(role) {
+                    role_row.Roles.map(function(role) {
                         return (
                             <section><div className="inner">
                             <span className={`icon solid style2 major fa-${role.icon}`}></span>
