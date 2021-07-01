@@ -1,0 +1,40 @@
+---
+label: core team
+hide_body: true
+fields:
+- type: field_group
+  name: Banner
+  label: Banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: body
+    label: body
+- type: list
+  name: Roles
+  label: Roles
+- type: field_group
+  name: Apply
+  label: Apply
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: body
+    label: body
+  - type: field_group_list
+    name: Buttons
+    label: Buttons
+    fields:
+    - type: boolean
+      name: visible
+      label: visible
+    - type: text
+      name: path
+      label: path
+    - type: text
+      name: text
+      label: text
