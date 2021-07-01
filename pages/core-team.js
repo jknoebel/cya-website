@@ -11,12 +11,12 @@ function CoreTeam() {
             <div className="items style1 medium onscroll-fade-in" id="roles">
             { Content.Roles.map(function(role_row) {    
                 return (
-                    role_row.Row.map(function(role) {
+                    role_row.map(function(role) {
                         return (
                             <section><div className="inner">
-                            <span className={`icon solid style2 major fa-${role.Role.icon}`}></span>
-                            <h3 className="role">{role.Role.name}</h3>
-                            <p>{role.Role.body}<br/>{role.Role.members}</p>
+                            <span className={`icon solid style2 major fa-${role.icon}`}></span>
+                            <h3 className="role">{role.name}</h3>
+                            <p>{role.body}<br/>{role.members}</p>
                             </div></section>
                         )
                     })
