@@ -28,7 +28,7 @@ function CoreTeam() {
                     He provides a practical perspective to Director for decision making. He manages the CYA schedule and new member flow. 
                     He owns the CYA email and does administration for the CYA online community.
                     He should have these gifts/qualities: administration, organization, reliable, responsible, diligent, detail-oriented, (tech-savvy)
-                    <br/>Current Coordinator: Johnny Knoebel
+                    <br/>Current Coordinators: Johnny Knoebel, Caroline Taylor
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -40,7 +40,7 @@ function CoreTeam() {
                     create an environment for virtuous friendships to form within the community.
                     They should have these gifts/qualities: enthusiasm for Catholic intellectual formation and virtues, desire to model virtuous friendships, 
                     long-term planning, experience leading small group discussions
-                    <br/>Current Members: Oliver Ha, Grant Varner
+                    <br/>Current Members: John Kim, Jodie Stautner
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -50,7 +50,7 @@ function CoreTeam() {
                     The Human Pillar organizes social events, such as coffee and donuts after Mass or whole-community outdoors events.
                     They seek out new faces at events and plug them into the group.
                     They should have these gifts/qualities: hospitality, zeal for souls, faith, boldness, charismatic, mercy
-                    <br/>Current Members: Sofia Quiñones, Caroline Taylor
+                    <br/>Current Members: Luke Baeckelandt, Tom Odom, Tianna Chorba 
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -60,7 +60,7 @@ function CoreTeam() {
                     The Spirital Pillar organizes spiritual events for the community, especially Adoration, both scheduling and music.
                     They may potentially coordinate retreats for the CYA with Director/Coordinator.
                     They should have these gifts/qualities: enthusiasm for Sacraments and prayer, understanding and appreciation of Liturgy
-                    <br/>Current Members: Faith Noah and Johnny Knoebel
+                    <br/>Current Members: Veronica Remmert, Megan Dawkins
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -70,7 +70,7 @@ function CoreTeam() {
                     The Apostolic Pillar organizes CYA outreach and volunteering both within and outside of the parish (Parent’s Night Out, service events/drives).
                     They also encourage connect CYA members to service commitments within the parish to deliver Communion, to serve in the Mass, etc.
                     They should have these gifts/qualities: zeal for souls, organization/administration, love of service
-                    <br/>Current Members: Jessica MacNair, Megan Dawkins
+                    <br/>Current Members: Jessica MacNair, Louis Grace
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -82,7 +82,7 @@ function CoreTeam() {
                     He should lead the effort to welcome new men into the CYA and plug them in.
                     He is the confidant for men's complaints/disputes that need to be elevated to the core team.
                     He should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
-                    <br/>Current Liaison: Louis Grace
+                    <br/>Current Liaison: Nate Meyers
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -94,7 +94,7 @@ function CoreTeam() {
                     Shee should lead the effort to welcome new women into the CYA and plug them in.
                     She is the confidant for women’s complaints/disputes that need to be elevated to the core team.
                     She should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
-                    <br/>Current Liaison: Megan Dawkins
+                    <br/>Current Liaison: Maddie Ibrahim
                     </p>
                 </div></section>
                 <section><div className="inner">
