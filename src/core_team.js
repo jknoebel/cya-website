@@ -114,9 +114,8 @@ function CoreTeam() {
         <section className="wrapper style1 align-center" id="apply">
             <div className="inner">
                 <h2>Interested in Serving on the Core Team?</h2>
-                Click below to submit an application to join or a nomination for someone else. <p/>
+                Click below to submit an application to join<p/>
                 <ul className="actions" id="apply_buttons">
-                    <li><a href="https://forms.gle/NBNziQ7NLgNf7bQh7" target="_blank" className="button large wide smooth-scroll-middle">Submit a Nomination</a></li>
                     <li><a href="https://forms.gle/qUSrut2rEX5MGbb56" target="_blank" className="button primary large wide smooth-scroll-middle">Apply Now</a></li>
                 </ul>
             </div>
