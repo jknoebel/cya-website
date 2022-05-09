@@ -1,8 +1,8 @@
 steps:
-  - name: node
+  - name: node:lts
     entrypoint: yarn
     args: ['install']
-  - name: node
+  - name: node:lts
     entrypoint: yarn
     args: ['build']
     env: 
