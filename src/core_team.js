@@ -17,7 +17,7 @@ function CoreTeam() {
                         The Director plans overall goals and vision of CYA and leads CYA core team. She works with the Coordinator and the priests
                         to cultivate mission and organize Pillars. She organizes and runs the core team meetings.
                         She should have these gifts/qualities: organization, zeal for souls, administration, pastor, wisdom, creativity, decisive
-                        <br/>Current Director: Faith Noah
+                        <br/>Current Director: Tianna Chorba
                     </p>
                 </div></section>
                 <section ><div className="inner">
@@ -28,7 +28,7 @@ function CoreTeam() {
                     He provides a practical perspective to Director for decision making. He manages the CYA schedule and new member flow. 
                     He owns the CYA email and does administration for the CYA online community.
                     He should have these gifts/qualities: administration, organization, reliable, responsible, diligent, detail-oriented, (tech-savvy)
-                    <br/>Current Coordinators: Johnny Knoebel, Caroline Taylor
+                    <br/>Current Coordinator: Alexander Goessler
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -40,7 +40,7 @@ function CoreTeam() {
                     create an environment for virtuous friendships to form within the community.
                     They should have these gifts/qualities: enthusiasm for Catholic intellectual formation and virtues, desire to model virtuous friendships, 
                     long-term planning, experience leading small group discussions
-                    <br/>Current Members: John Kim, Jodie Stautner
+                    <br/>Current Members: Qui Ton, Marcos Lowe
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -50,7 +50,7 @@ function CoreTeam() {
                     The Human Pillar organizes social events, such as coffee and donuts after Mass or whole-community outdoors events.
                     They seek out new faces at events and plug them into the group.
                     They should have these gifts/qualities: hospitality, zeal for souls, faith, boldness, charismatic, mercy
-                    <br/>Current Members: Luke Baeckelandt, Tom Odom, Tianna Chorba 
+                    <br/>Current Members: Joseph McConnell, Christina Schaefer
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -60,7 +60,7 @@ function CoreTeam() {
                     The Spirital Pillar organizes spiritual events for the community, especially Adoration, both scheduling and music.
                     They may potentially coordinate retreats for the CYA with Director/Coordinator.
                     They should have these gifts/qualities: enthusiasm for Sacraments and prayer, understanding and appreciation of Liturgy
-                    <br/>Current Members: Veronica Remmert, Megan Dawkins
+                    <br/>Current Member: Alyssa Sanchez
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -70,7 +70,7 @@ function CoreTeam() {
                     The Apostolic Pillar organizes CYA outreach and volunteering both within and outside of the parish (Parent’s Night Out, service events/drives).
                     They also encourage connect CYA members to service commitments within the parish to deliver Communion, to serve in the Mass, etc.
                     They should have these gifts/qualities: zeal for souls, organization/administration, love of service
-                    <br/>Current Members: Jessica MacNair, Louis Grace
+                    <br/>Current Members: Nicole Chorba, Callie Ball
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -82,7 +82,7 @@ function CoreTeam() {
                     He should lead the effort to welcome new men into the CYA and plug them in.
                     He is the confidant for men's complaints/disputes that need to be elevated to the core team.
                     He should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
-                    <br/>Current Liaison: Nate Meyers
+                    <br/>Current Liaison: Jonathan Espinosa
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -94,7 +94,7 @@ function CoreTeam() {
                     Shee should lead the effort to welcome new women into the CYA and plug them in.
                     She is the confidant for women’s complaints/disputes that need to be elevated to the core team.
                     She should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
-                    <br/>Current Liaison: Maddie Ibrahim
+                    <br/>Current Liaison: Ashley Krus
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -105,7 +105,7 @@ function CoreTeam() {
                     She should create and share graphics for events from the pillars on social media, with help from the respective pillar
                     She is also the first responder to inquiries through social media, especially important for new members.
                     She should have these gifts/qualities: creativity, social media savvy, responsible, welcoming
-                    <br/>Current Coordinator: Victoria Castillo
+                    <br/>Current Coordinator: Suzy Devane
                     </p>
                 </div></section>
             </div>
