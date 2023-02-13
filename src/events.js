@@ -7,7 +7,7 @@ let today = new Date()
 let one_month_ago = new Date(today.getFullYear(), today.getMonth() - 1, today.getDay()).toISOString()
 let event_url = `${base_url}${CALENDAR_ID}/events?key=${API_KEY}&timeMin=${one_month_ago}`
 
-async function getRecurringEvents(event) {\
+async function getRecurringEvents(event) {
     let recurring_event_url = `${base_url}${CALENDAR_ID}/events/${event.id}/instances?key=${API_KEY}&maxResults=50&timeMin=${one_month_ago}`
     const resp = await request.get(recurring_event_url)
     const events = JSON.parse(resp.text).items.map((event) => {
