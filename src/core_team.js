@@ -74,12 +74,22 @@ function CoreTeam() {
                     </p>
                 </div></section>
                 <section><div className="inner">
+                    <span className="icon regular style2 major fa-handshake"></span>
+                    <h3 className="role">Welcome Committee</h3>
+                    <p>
+                    Welcome Committee consists of one male and one female leader. 
+                    They lead the efforts to welcome new members into the CYA community.
+                    Their focus should be on inviting the new members to CYA and parish events as well as coordinating the quarterly welcome events. 
+                    They should have these gifts/qualities: zeal for souls, hospitality, friendliness
+                    <br/>Current Members:
+                    </p>
+                </div></section>
+                <section><div className="inner">
                     <span className="icon solid style2 major fa-male"></span>
                     <h3 className="role">Men's Liaison</h3>
                     <p>
                     The Men's Liaison is the point person for the men of the CYA. 
                     He should promote and coordinate men’s outreach, Bible studies/formation nights, and men's programs like Exodus. 
-                    He should lead the effort to welcome new men into the CYA and plug them in.
                     He is the confidant for men's complaints/disputes that need to be elevated to the core team.
                     He should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
                     <br/>Current Liaison: Jonathan Espinosa
@@ -91,7 +101,6 @@ function CoreTeam() {
                     <p> 
                     The Women's Liaison is the point person for the women of the CYA.
                     She should promote and coordinate women's outreach, Bible studies/formation nights, and women's programs like Fiat.
-                    Shee should lead the effort to welcome new women into the CYA and plug them in.
                     She is the confidant for women’s complaints/disputes that need to be elevated to the core team.
                     She should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
                     <br/>Current Liaison: Ashley Krus
@@ -116,7 +125,7 @@ function CoreTeam() {
                 <h2>Interested in Serving on the Core Team?</h2>
                 Click below to submit an application to join<p/>
                 <ul className="actions" id="apply_buttons">
-                    <li><a href="https://forms.gle/qUSrut2rEX5MGbb56" target="_blank" className="button primary large wide smooth-scroll-middle">Apply Now</a></li>
+                    <li><a href="https://forms.gle/eRj6q1AoKUxiHVnx6" target="_blank" className="button primary large wide smooth-scroll-middle">Apply Now</a></li>
                 </ul>
             </div>
         </section>
