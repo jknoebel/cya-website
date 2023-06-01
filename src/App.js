@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
 // import './App.css';
+import emailjs from '@emailjs/browser';
 import './css/main.css';
 
 function App() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault(); // prevents the page from reloading when you hit “Send”
+        if(form.current.elements['groupme'].checked){
+            emailjs.sendForm('default_service', 'template_nmf4x8v', form.current, 'RQIljlZoRi3Bq2GJv')
+            .then((result) => {
+                console.log("Sent email for groupme signup status: " + result.status + " content: " + result.text)
+            }, (error) => {
+                console.log(error)
+            });
+        }
+      };
   return (
         // < !--Wrapper -- >
         <div id="wrapper" className="divided">
@@ -82,7 +97,7 @@ function App() {
                     <h2>Get connected</h2>
                     Fill out the form below to keep up with everything going on in our group. <br/>
                         <div className="align-left" width="820px">
-                            <form method="post" action="https://app.flocknote.com/group/369373/addToGroupFromOutside" target="_blank" id="cya_signup">
+                            <form onSubmit={sendEmail} ref={form} method="post" action="https://app.flocknote.com/group/369373/addToGroupFromOutside" target="_blank" id="cya_signup">
                                 <div className="fields">
                                     <div className="field half">
                                         <input type="name" name="fname" placeholder="First Name" required/>
@@ -102,6 +117,11 @@ function App() {
                                       I agree to the <a target="_blank" rel="noopener noreferrer"
                                                 href="https://docs.google.com/document/d/1-NB4Bdusq8EdElQR4nSKkO9gXjpGOXFSdalEldRGimU/edit?usp=sharing">Code of Conduct</a>.
                                         </label>
+                                    </div>
+                                    <div className="field">
+                                        <input type="checkbox" id="groupme" name="groupme"/>
+                                        <label htmlFor="groupme">
+                                        Join our GroupMe (recommended) - This is our community board where you'll see all the latest CYA events and updates. </label>
                                     </div>
                                 </div>
                                 <button type="submit" value="submit">Sign Me Up</button>
