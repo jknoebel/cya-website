@@ -8,7 +8,6 @@ function App() {
     const form = useRef();
 
     const sendEmail = (e) => {
-        e.preventDefault(); // prevents the page from reloading when you hit “Send”
         if(form.current.elements['groupme'].checked){
             emailjs.sendForm('default_service', 'template_nmf4x8v', form.current, 'RQIljlZoRi3Bq2GJv')
             .then((result) => {
