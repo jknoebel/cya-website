@@ -40,7 +40,7 @@ function CoreTeam() {
                     create an environment for virtuous friendships to form within the community.
                     They should have these gifts/qualities: enthusiasm for Catholic intellectual formation and virtues, desire to model virtuous friendships, 
                     long-term planning, experience leading small group discussions
-                    <br/>Current Members: Qui Ton, Marcos Lowe
+                    <br/>Current Members: Qui Ton, Marcos Lowe, Joseph Vasquez
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -50,17 +50,17 @@ function CoreTeam() {
                     The Human Pillar organizes social events, such as coffee and donuts after Mass or whole-community outdoors events.
                     They seek out new faces at events and plug them into the group.
                     They should have these gifts/qualities: hospitality, zeal for souls, faith, boldness, charismatic, mercy
-                    <br/>Current Members: Joseph McConnell, Christina Schaefer
+                    <br/>Current Members: Joseph McConnell, Christina Schaefer, Emily Mauer
                     </p>
                 </div></section>
                 <section><div className="inner">
                     <span className="icon solid style2 major fa-place-of-worship"></span>
                     <h3 className="role">Spiritual Pillar</h3>
                     <p>
-                    The Spirital Pillar organizes spiritual events for the community, especially Adoration, both scheduling and music.
+                    The Spiritual Pillar organizes spiritual events for the community, especially Adoration, both scheduling and music.
                     They may potentially coordinate retreats for the CYA with Director/Coordinator.
                     They should have these gifts/qualities: enthusiasm for Sacraments and prayer, understanding and appreciation of Liturgy
-                    <br/>Current Member: Alyssa Sanchez
+                    <br/>Current Member: Georges Alsankary
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -70,7 +70,7 @@ function CoreTeam() {
                     The Apostolic Pillar organizes CYA outreach and volunteering both within and outside of the parish (Parent’s Night Out, service events/drives).
                     They also encourage connect CYA members to service commitments within the parish to deliver Communion, to serve in the Mass, etc.
                     They should have these gifts/qualities: zeal for souls, organization/administration, love of service
-                    <br/>Current Members: Nicole Chorba, Callie Ball
+                    <br/>Current Members: Nicole Chorba, Patrick Reed
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -81,7 +81,7 @@ function CoreTeam() {
                     They lead the efforts to welcome new members into the CYA community.
                     Their focus should be on inviting the new members to CYA and parish events as well as coordinating the quarterly welcome events. 
                     They should have these gifts/qualities: zeal for souls, hospitality, friendliness
-                    <br/>Current Members:
+                    <br/>Current Members: Sam Burks, Ashley Krus
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -103,7 +103,7 @@ function CoreTeam() {
                     She should promote and coordinate women's outreach, Bible studies/formation nights, and women's programs like Fiat.
                     She is the confidant for women’s complaints/disputes that need to be elevated to the core team.
                     She should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
-                    <br/>Current Liaison: Ashley Krus
+                    <br/>Current Liaison: Sara Lowe, Alyssa Sanchez
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -114,7 +114,7 @@ function CoreTeam() {
                     She should create and share graphics for events from the pillars on social media, with help from the respective pillar
                     She is also the first responder to inquiries through social media, especially important for new members.
                     She should have these gifts/qualities: creativity, social media savvy, responsible, welcoming
-                    <br/>Current Coordinator: Suzy Devane
+                    <br/>Current Coordinator: Joseph Vasquez
                     </p>
                 </div></section>
             </div>
