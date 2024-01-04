@@ -40,7 +40,7 @@ function CoreTeam() {
                     create an environment for virtuous friendships to form within the community.
                     They should have these gifts/qualities: enthusiasm for Catholic intellectual formation and virtues, desire to model virtuous friendships, 
                     long-term planning, experience leading small group discussions
-                    <br/>Current Members: Qui Ton, Marcos Lowe, Joseph Vasquez
+                    <br/>Current Members: Qui Ton
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -50,7 +50,7 @@ function CoreTeam() {
                     The Human Pillar organizes social events, such as coffee and donuts after Mass or whole-community outdoors events.
                     They seek out new faces at events and plug them into the group.
                     They should have these gifts/qualities: hospitality, zeal for souls, faith, boldness, charismatic, mercy
-                    <br/>Current Members: Joseph McConnell, Christina Schaefer, Emily Mauer
+                    <br/>Current Members: Joseph McConnell, Emily Mauer, Kevin Nguyen
                     </p>
                 </div></section>
                 <section><div className="inner">
@@ -114,7 +114,7 @@ function CoreTeam() {
                     She should create and share graphics for events from the pillars on social media, with help from the respective pillar
                     She is also the first responder to inquiries through social media, especially important for new members.
                     She should have these gifts/qualities: creativity, social media savvy, responsible, welcoming
-                    <br/>Current Coordinator: Joseph Vasquez
+                    <br/>Current Coordinator: Charlotte Lannon
                     </p>
                 </div></section>
             </div>
