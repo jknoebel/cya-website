@@ -85,28 +85,6 @@ function CoreTeam() {
                     </p>
                 </div></section>
                 <section><div className="inner">
-                    <span className="icon solid style2 major fa-male"></span>
-                    <h3 className="role">Men's Liaison</h3>
-                    <p>
-                    The Men's Liaison is the point person for the men of the CYA. 
-                    He should promote and coordinate men’s outreach, Bible studies/formation nights, and men's programs like Exodus. 
-                    He is the confidant for men's complaints/disputes that need to be elevated to the core team.
-                    He should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
-                    <br/>Current Liaison: Jonathan Espinosa
-                    </p>
-                </div></section>
-                <section><div className="inner">
-                    <span className="icon solid style2 major fa-female"></span>
-                    <h3 className="role">Women's Liaison</h3>
-                    <p> 
-                    The Women's Liaison is the point person for the women of the CYA.
-                    She should promote and coordinate women's outreach, Bible studies/formation nights, and women's programs like Fiat.
-                    She is the confidant for women’s complaints/disputes that need to be elevated to the core team.
-                    She should have these gifts/qualities: zeal for souls, pastoral, administration, wisdom, trustworthy
-                    <br/>Current Liaison: Sara Lowe, Alyssa Sanchez
-                    </p>
-                </div></section>
-                <section><div className="inner">
                     <span className="icon solid style2 major brands fa-instagram"></span>
                     <h3 className="role">Social Media Coordinator</h3>
                     <p>
