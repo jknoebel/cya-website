@@ -65,9 +65,9 @@ function App() {
                 <div className="content">
                     <h2>Who We Welcome</h2>
                     <p>While the group is primarily made up of single Catholics in their 20s and 30s and events are geared toward
-                    this demographic, anyone between the ages of 18-40 is welcome to join, including young married couples. Our members
-                    cover the spectrum in their perspectives on the faith, but whether you are a devout Catholic or haven't been to
-                                church in years, we will welcome you with open arms. </p>
+                    this demographic, anyone between the ages of 18-40 is welcome to join, including young married couples. 
+                    Whether you are a devout Catholic or haven't been to church in years, we are glad you are here and look
+                    forward to walking with you towards Christ. </p>
                 </div>
                 <div className="image">
                     <img src="images/stmarys_inside.jpg" alt="" />
@@ -78,12 +78,12 @@ function App() {
             {/* <!-- Three --> */}
             <section className="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="third">
                 <div className="content">
-                    <h2>Our Core Team</h2>
-                    <p>The Cathedral Young Adults Core Team serves the CYA by providing foundational events and structure for the community. 
-                        The team consists of Director, Coordinator, Human Pillar, Spiritual Pillar, Intellectual Pillar, Apostolic Pillar, Men's Liaison,
-                        Women's Liaison, and Social Media Coordinator. Click below to learn how each of these roles serves the community and how to apply.
+                    <h2>Our Leadership Team</h2>
+                    <p>The Cathedral Young Adults Leadership Team serves the CYA  and structure for the community. 
+                        The team consists of 2 branches: the Core Team who provides foundational events and Community Groups
+                        which provide smaller, intentional spaces for community. 
+                        Click below to learn more about the team and structure.
                     </p>
-                    <a href="/core-team" className="button primary large wide smooth-scroll-middle icon major">Learn more</a>
                 </div>
                 <div className="image">
                     <img src="images/stmarys_stained_glass.jpg" alt="" />
