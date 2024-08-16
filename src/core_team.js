@@ -7,7 +7,7 @@ function CoreTeam() {
         //  < !--Wrapper -- >
     <div id="wrapper" className="divided">
         <section className="wrapper style1 align-center">
-            <h2>CYA Core Team</h2>
+            <h2>CYA Leadership Team</h2>
             <p>The Cathedral Young Adults Core Team serves the CYA by providing foundational events and structure for the community. </p>
             <div className="items style1 medium onscroll-fade-in" id="roles">
                 <section><div className="inner">
